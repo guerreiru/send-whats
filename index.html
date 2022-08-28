@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Iniciar conversa</title>
+</head>
+
+<body>
+  <div class="container">
+    <form id="form-phone">
+      <label for="phone">Número de telefone</label>
+      <input required type="text" id="phone" aria-describedby="textHelp" placeholder="Insira o número de telefone"
+        pattern="\(?[0-9]{2}\)?[\s]?[0-9]{4,5}-?[0-9]{4}">
+      <button type="submit" id="btn-submit">Iniciar Conversa</button>
+    </form>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
